@@ -179,7 +179,7 @@ view_string:				@ Label for the menu choice for printing all strings
 	ldr 	r0, =cCr		@ Loads new line
 	bl 	putch			@ Prints new line
 	
-	b 	menu			@ Branch to menu to load menu
+	b 	menu			@ Branch to menu to load menu 
 
 @------------------------------------------------------------------------------------------------------------
 add_keyboard:				@ Label for the menu choice of adding a string from the keyboard
